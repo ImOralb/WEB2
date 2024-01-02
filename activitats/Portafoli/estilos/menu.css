@@ -1,4 +1,17 @@
-ul {
+   h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    margin-top: 2ch; 
+    padding: 20px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,7 +29,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
   }
   
@@ -32,24 +45,7 @@ ul {
     background-color: rgb(59, 59, 59);
     color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px; 
     padding: 10px; 
   }
-  
-  h1 {
-    font-size: 45px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    text-align: center;
-    margin-top: 2ch; 
-    padding: 20px;
-  }
-  h1:hover{
-    font-size: 65px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 2ch; 
-    padding: 20px;
-
-  }
-  
