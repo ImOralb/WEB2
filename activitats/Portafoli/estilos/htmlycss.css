@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
   }
   
   li {
@@ -111,7 +112,10 @@ h1:hover {
 
 table {
   border-collapse: collapse;
-  width: 900px;
+  border-style:outset;
+  padding: 20ch;
+  width: 1200px;
+  height: 200px;
   margin: 0 auto;
   margin-top: 20px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
@@ -127,6 +131,7 @@ table {
     border-collapse: collapse;
     width: 900px;
     margin: 0 auto;
+    background-color: #f9f9f9;
 
 }
 
@@ -147,6 +152,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
+  
 }
 a{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
