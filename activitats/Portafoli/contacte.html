@@ -11,12 +11,21 @@
         <li><a href="menu.html">Menu</a></li>
         <li><a href="htmlycss.html">HtmlCss</a></li>
         <li><a href="contacte.html">Contacto</a></li>
-        <li><a href="registrar.html">Registrar</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Mes Informaci
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="imatges.html">Imatges</a>
+              <a href="registrar.html">Registrar</a>
+            </div>
+          </div> 
+        </div>
     </ul>
     
     
     
-    <form action="procesar_formulario.php" method="post">
+    <form>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
 
@@ -28,14 +37,6 @@
 
         <input type="submit" value="Enviar">
     </form>
-
-
-
-
-
-
-
-
 
     <div class="footer">
         <p id="oriol">Oriol Garcia</p>
