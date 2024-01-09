@@ -50,21 +50,14 @@ ul {
     text-align: center;
     margin-top: 2ch; 
     padding: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of e467ff6 (fefefefef)
+
 
   }
   #htmlimg{
     margin-top: 5ch;
     width: 100px;
     height: 100px;
-<<<<<<< HEAD
->>>>>>> parent of e467ff6 (fefefefef)
-=======
->>>>>>> parent of e467ff6 (fefefefef)
+
 
   }
   #htmlimg{
@@ -73,8 +66,7 @@ ul {
     height: 100px;
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .footer {
   position: fixed;
   left: 0;
@@ -124,10 +116,7 @@ table {
   margin-top: 20px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
 
-=======
->>>>>>> parent of e467ff6 (fefefefef)
-=======
->>>>>>> parent of e467ff6 (fefefefef)
+
   }
   #cssimg{
     margin-top: 5ch;
@@ -138,13 +127,7 @@ table {
     border-collapse: collapse;
     width: 900px;
     margin: 0 auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of e467ff6 (fefefefef)
-=======
->>>>>>> parent of e467ff6 (fefefefef)
 }
 
 th, td {
@@ -168,8 +151,7 @@ body {
 a{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
   color: #5b5959;
   transition: color 0.3s ease;
@@ -223,8 +205,5 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
-=======
->>>>>>> parent of e467ff6 (fefefefef)
-=======
->>>>>>> parent of e467ff6 (fefefefef)
+
 }
