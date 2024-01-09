@@ -50,14 +50,84 @@ ul {
     text-align: center;
     margin-top: 2ch; 
     padding: 20px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
 
   }
   #htmlimg{
     margin-top: 5ch;
     width: 100px;
     height: 100px;
+<<<<<<< HEAD
+>>>>>>> parent of e467ff6 (fefefefef)
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
+
+  }
+  #htmlimg{
+    margin-top: 5ch;
+    width: 100px;
+    height: 100px;
+  }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 
 
+h1 {
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 2ch;
+  padding: 20px;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+h1:hover {
+  font-size: 50px;
+  padding: 25px;
+  color: #5b5959;
+}
+
+
+#htmlimg,
+#cssimg {
+  margin-top: 5ch;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#htmlimg:hover, #cssimg:hover {
+  transform: scale(1.1);
+}
+
+table {
+  border-collapse: collapse;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
   }
   #cssimg{
     margin-top: 5ch;
@@ -68,6 +138,13 @@ ul {
     border-collapse: collapse;
     width: 900px;
     margin: 0 auto;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
 }
 
 th, td {
@@ -91,4 +168,63 @@ body {
 a{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+  color: #5b5959;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #333;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(65, 65, 65);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
+=======
+>>>>>>> parent of e467ff6 (fefefefef)
 }

@@ -1,31 +1,9 @@
-   p {
+h1 {
     font-size: 45px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-top: 2ch; 
-    padding: 20px;
-    border-style:dashed;
-    border-radius: 25ch;
-    background-color: none;
-  }
-  p:hover{
-    font-size: 45px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    margin-top: 2ch; 
-    padding: 20px;
-    border-style: solid;
-    border-radius: 25ch;
-    background-color: rgb(196, 150, 240);
-  }
-  #oriol{
-    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     text-align: center;
     margin-top: 2ch; 
     padding: 20px;
-    border-style: none;
-    background-color: none;
   }
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,4 +94,21 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#Copyright{
+    width: 30px;
+    height: 30px;
+
+}
+#instagram{
+    width: 30px;
+    height: 30px;
+}
+#facebook{
+    width: 30px;
+    height: 30px;
 }
