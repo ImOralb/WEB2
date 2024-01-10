@@ -142,7 +142,6 @@ table {
   color: rgb(255, 255, 255);
   font-weight:bolder;
   border-bottom: #ddd;
-  animation: letras 5s infinite;
 }
 
 th, td {
