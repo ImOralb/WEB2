@@ -3,7 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
+  opacity: 1;
+  transition: opacity 4s ease;
 }
+
 
 ul {
   list-style-type: none;
