@@ -133,25 +133,6 @@ table {
     margin: 0 auto;
     background-color: #f9f9f9;
     margin-top: 19ch;
-    animation: tabla 5s infinite;
-}
-
-@keyframes tabla {
-  0% {
-    transform: translateY(5px);
-  }
-  25% {
-    transform: translateY(-5px);
-  }
-  50% {
-    transform: translateY(5px);
-  }
-  75% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 
 th, td {
