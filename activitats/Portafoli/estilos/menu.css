@@ -164,8 +164,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin: 0;
 padding: 0;
 background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
-filter: blur(200px);
-backdrop-filter: blur(10px);
 }
 a{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
