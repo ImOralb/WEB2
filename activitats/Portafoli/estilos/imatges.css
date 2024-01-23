@@ -10,7 +10,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
+  background:cornflowerblue;
   overflow-y: scroll;
 }
 
