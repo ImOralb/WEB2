@@ -6,49 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VISITA EL MEU PORTAFOLI</title>
     <style>
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+      body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/WEB2/activitats/Portafoli/imagenes/menufondo.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100ch; 
+}
 
-        .container {
-            background-color: #f9f9f9;
-            padding: 40px;
-            border-radius: 15px;
-            width: 80%;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2.5s forwards;
+    background-color: #f9f9f9;
+    padding: 80px;
+    border-radius: 30px;
+    width: 80%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 35px;
+}
 
-        h1 {
-            font-size: 45px;
-            font-weight: 700;
-            color: #673ab7;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-bottom: 20px;
-        }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 
-        a {
-            text-decoration: none;
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 24px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #673ab7;
-            border-radius: 8px;
-            transition: background-color 0.3s ease;
-        }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-        a:hover {
-            background-color: #512da8;
-        }
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #673ab7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 60px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #673ab7;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #512da8;
+}
     </style>
 </head>
 
