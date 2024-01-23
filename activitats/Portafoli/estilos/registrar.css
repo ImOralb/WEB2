@@ -61,19 +61,21 @@ h1:hover {
 }
 
 form {
-  max-width: 400px;
+  width: 800px;
+  height: 500px;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
   text-align: center;
+  font-size: 22px;
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
-  font-size: 16px;
+  margin-bottom: 22px;
+  font-size: 22px;
   font-weight: bold;
   color: #333;
 }
@@ -88,7 +90,7 @@ input, textarea {
 }
 
 input[type="submit"] {
-  background-color: #f61159;
+  background-color: #f69311;
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -96,7 +98,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #91006a;
+  background-color: #ffbf00;
 }
 
 .dropdown {
