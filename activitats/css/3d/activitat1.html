@@ -6,27 +6,34 @@
     <title>Activitat1</title>
 </head>
 <style>
-    #image-container {
-      perspective: 1000px;
-      margin: 50px;
-    }
+  body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+  }
 
-    #image {
+  .imagen-container {
+      perspective: 800px;
+  }
+
+  .imagen {
       width: 300px;
       height: 200px;
-      transform-style: preserve-3d;
-      transition: transform 0.5s;
-    }
+      transition: transform 0.5s; 
+  }
 
-    #image:hover {
-      transform: rotateY(30deg);
-    }
-  </style>
+  .imagen:hover {
+      transform: rotateY(20deg) rotateX(20deg) scale(1.1);
+  }
+</style>
+</head>
 <body>
-    <div id="image-container">
-      <div id="image:hover">
-        <img id="image" src="/activitats/Portafoli/imagenes/Copyright.png" alt="Fondo muy bonito la verdad">
-  
-      </div>
+<div class="imagen-container">
+  <img class="imagen" src="/activitats/Portafoli/imagenes/avatar.png" alt="Imagen" />
+</div>
 </body>
-</html>l
+</html>
