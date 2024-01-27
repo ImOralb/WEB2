@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat2</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    #cookie-container {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        animation: slideIn 0.5s ease-out;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(100%);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+</style>
+<body>
+    <div id="cookie-container">
+        <p>Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia.</p>
+        <button onclick="aceptarCookies()">Aceptar</button>
+    </div>
+
+</body>
+</html>a
