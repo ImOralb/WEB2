@@ -6,49 +6,75 @@
     <title>Activitat1</title>
 </head>
 <style>
-    body{
-        background-color: rgb(85, 85, 85);
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
     }
-    #messi{
+
+    .chat {
+        width: 300px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .mensaje {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
-        object-position: top;
-        width: 100px;
-        height: 100px;
-        color: white;
-        font-weight: 600;
-    }
-    #bob{
-        border-radius: 80%;
-        object-position:right;
-        width: 100px;
-        height: 100px;
-        margin-left: 95%;
-        color: white;
-        font-weight: 600;
-
-    }
-    #TEXTO{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        font-weight: 600;
-        
+        margin-right: 10px;
     }
 
+    .nombre {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
 
+    .fecha {
+        font-size: 12px;
+        color: #888;
+        margin-bottom: 5px;
+    }
 
+    .texto {
+        font-size: 14px;
+        color: #333;
+    }
+
+   
 </style>
 <body>
-    <p id="TEXTO">MESSI</p>
-    <img id="messi" src="https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTkzMTYxMTQ2NDc0MTc4MjA3/lionel-messi-lead-js-102022.jpg">
-    <p id="TEXTO">HOLA COMO ESTAS</p>
-    <P></P>
-    <img id="bob" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv2Js6EKu55esKuofljeDb4DtqsgI3B7ysg&usqp=CAU.jpg">
-    <P></P>
-    <img id="messi" src="https://www.thestreet.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTkzMTYxMTQ2NDc0MTc4MjA3/lionel-messi-lead-js-102022.jpg">
-    <p id="TEXTO">ADIOS, ADEUU</p>
-    <P></P>
-    <img id="bob" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgv2Js6EKu55esKuofljeDb4DtqsgI3B7ysg&usqp=CAU.jpg">
+    <div class="chat">
+        <div class="mensaje">
+            <img class="avatar" src="/activitats/Portafoli/imagenes/avatar.png" alt="Avatar 1">
+            <div>
+                <div class="nombre">Messi</div>
+                <div class="fecha">27 de enero, 2024</div>
+                <div class="texto">Hola, cómo estas</div>
+            </div>
+        </div>
+
+        <div class="mensaje">
+            <img class="avatar" src="/activitats/Portafoli/imagenes/avatar.png" alt="Avatar 2">
+            <div>
+                <div class="nombre">Cristiano</div>
+                <div class="fecha">27 de enero, 2024</div>
+                <div class="texto">Bien y tu?</div>
+            </div>
+        </div>
+
+      
+
+    </div>
 
 </body>
 </html>
