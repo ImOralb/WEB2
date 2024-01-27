@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .pendulo-container {
+        position: relative;
+        width: 10px;
+        height: 200px;
+        background-color: #333;
+        margin: auto;
+        animation: swing 2s ease-in-out infinite;
+    }
+
+    .punto-fijo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: #3498db;
+        border-radius: 50%;
+        transform: translateX(-50%);
+    }
+
+    @keyframes swing {
+        0%, 100% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(20deg);
+        }
+    }
+</style>
+</head>
+<body>
+<div class="pendulo-container">
+    <div class="punto-fijo"></div>
+</div>
+</body>
+</html>
